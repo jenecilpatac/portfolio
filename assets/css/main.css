@@ -1958,3 +1958,17 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Make arrows bold and orange */
+.custom-control .carousel-control-prev-icon,
+.custom-control .carousel-control-next-icon {
+  background-color: orange !important;  /* Set the arrow color to orange */
+  font-weight: bold;                    /* Bold the arrows */
+}
+
+.custom-control .carousel-control-prev-icon,
+.custom-control .carousel-control-next-icon {
+  width: 30px;   /* Set the width of the arrow */
+  height: 30px;  /* Set the height of the arrow */
+  border-radius: 50%; /* Optional: makes the background circular */
+}
